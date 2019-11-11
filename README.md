@@ -26,7 +26,7 @@ It includes a wifi manager to connect to an wifi network. Just connect a phone t
 **NOTE:**
 
 There's a big bug somewhere. I suspect the Bluetooth or the BLE library causes an Stack overflow error. This happens when you send Bluetooth commands at a high rate. 
-It's not really a problem, the ESP32 resets and connects immediately after that. But if anyone knows how to solve it, please let me know!
+It's not really a problem, the ESP32 resets and connects immediately after that. But if anyone knows how to solve it, please let me know! If you want to collaborate on this project please feel free to contact me, and ill be happy to add you to the Github repository.
 
 **Available SendKey's:**
 * KEY_LEFT_CTRL
