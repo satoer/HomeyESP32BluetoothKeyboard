@@ -145,8 +145,7 @@ void setPowerOnOff() {
     //POWER ON
     Serial.println("Power ON");
     if (bluetoothConnected) {
-      // bleKeyboard.print(" "); //If you want to unlock without code
-      bleKeyboard.print("  833983"); //If you want to unlock with code: Two spaces before the code
+      bleKeyboard.print(" "); //If you want to unlock without code
       // bleKeyboard.print("  123456"); //If you want to unlock with code: Add two spaces before the code!
     }
   } else
