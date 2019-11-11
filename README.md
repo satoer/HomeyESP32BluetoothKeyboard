@@ -5,6 +5,7 @@ Compatible with Android, Windows, Linux, iOS that support Bluetooth LE. (iPad 4 
 This firmware is aimed to lock and unlock an iPad, but you can change the On / off setting for anything you want: space to unlock (or with code) and CTRL+CMD+h to lock. You can change the keyboard shortcuts in the routine setPowerOnOff (for use with Android). You can also send complete strings, or keystrokes from Homey.
 
 **You need these libraries:**
+
 https://github.com/athombv/com.athom.homeyduino
 https://github.com/T-vK/ESP32-BLE-Keyboard
 https://github.com/Brunez3BD/WIFIMANAGER-ESP32  (This one works with the ESP32)
