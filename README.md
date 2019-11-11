@@ -1,4 +1,4 @@
-# HomeyESP32BluetoothKeyboard
+# Homey ESP32 Bluetooth Keyboard
 ESP32 firmware to let the Homey communicate like a Bluetooth keyboard to Bluetooth devices.
 Compatible with Android, Windows, Linux, iOS that support Bluetooth LE. (iPad 4 and higher, iPhone 4S and higher. (These support BLE))
 
@@ -7,7 +7,9 @@ This firmware is aimed to lock and unlock an iPad, but you can change the On / o
 **You need these libraries:**
 
 https://github.com/athombv/com.athom.homeyduino
+
 https://github.com/T-vK/ESP32-BLE-Keyboard
+
 https://github.com/Brunez3BD/WIFIMANAGER-ESP32  (This one works with the ESP32)
 
 Arduino version I used: 1.8.9
