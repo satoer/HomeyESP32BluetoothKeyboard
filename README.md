@@ -18,7 +18,7 @@ Partition scheme: Huge App (3MB no OTA/1MB SPIFFS) Otherwise it won't fit the RA
 Add Homeyduino on Homey.
 Switch (on / off) locks and unlocks iOS devices. 
 You can also use actions in flows with "SendText" to let the ESP32 type a complete string of text or..
-Use "SendKey" to send a single (special) key. see keyLookupTable below for supported keys. Or a single character.
+Use "SendKey" to send a single (special) key. see lookup table below for supported keys. Or a single character.
 "SendKey" keeps the key pressed (so you can send things like Alt+Ctrl+delete) So you need to send the SendKey RELEASE after the SendKeys to release the keys (with a second delay).
 Otherwise it will automatically release it after the releaseTime timeout. Use only one keystroke per card.
 It includes a wifi manager to connect to an wifi network. Just connect a phone to the "Homey Bluetooth Keyboard" network and fill in the credentials. (No hardcoding of credentials, so you don’t have to find the source code if you change the wifi network after a couple of years ;))
@@ -27,3 +27,30 @@ It includes a wifi manager to connect to an wifi network. Just connect a phone t
 
 There's a big bug somewhere. I suspect the Bluetooth or the BLE library causes an Stack overflow error. This happens when you send Bluetooth commands at a high rate. 
 It's not really a problem, the ESP32 resets and connects immediately after that. But if anyone knows how to solve it, please let me know!
+
+Available SendKey's:
+**Available SendKeys:**
+* KEY_LEFT_CTRL
+* KEY_LEFT_SHIFT
+* KEY_LEFT_ALT
+* KEY_LEFT_GUI
+* KEY_RIGHT_CTRL
+* KEY_RIGHT_SHIFT
+* KEY_RIGHT_ALT
+* KEY_RIGHT_GUI
+* KEY_UP_ARROW
+* KEY_DOWN_ARROW
+* KEY_LEFT_ARROW
+* KEY_RIGHT_ARROW
+* KEY_BACKSPACE
+* KEY_TAB
+* KEY_RETURN
+* KEY_ESC
+* KEY_INSERT
+* KEY_DELETE
+* KEY_PAGE_UP
+* KEY_PAGE_DOWN
+* KEY_HOME
+* KEY_END
+* KEY_CAPS_LOCK
+* KEY_F1 to KEY_F24
