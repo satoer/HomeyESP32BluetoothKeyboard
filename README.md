@@ -2,6 +2,9 @@
 ESP32 firmware to let the Homey communicate like a Bluetooth keyboard to Bluetooth devices.
 Compatible with Android, Windows, Linux, iOS that support Bluetooth LE. (iPad 4 and higher, iPhone 4S and higher. (These support BLE))
 
+![ESP32]https://repository-images.githubusercontent.com/221046324/a956a200-0549-11ea-91c4-c40964e4c7f7
+
+
 This firmware is aimed to lock and unlock an iPad, but you can change the On / off setting for anything you want: space to unlock (or with code) and CTRL+CMD+h to lock (Locking only works on iOS13, pre iOS13 iPads can use the auto lock feature of the ipad, and keep it awake by timed intervals from a flow: Example: Every 9 minutes, motion detector is on, power on). You can change the keyboard shortcuts in the routine setPowerOnOff (for use with Android). You can also send complete strings, or keystrokes from Homey.
 
 **You need these libraries:**
